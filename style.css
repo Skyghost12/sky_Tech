@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #0f0f1a;
+    color: #ffffff;
+    
+}
+header{
+    background: #1f1f2e;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-toggle{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #00ffe7;
+}
+nav a{
+    color: #00ffe7;
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 5px #00ffe7, 0 0 10px #00ffe7;
+}
+
+
+#hero{
+    background: #00bfa6;
+    color: #0f0f1a;
+    padding: 3rem;
+    text-align: center;
+}
+section{
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.project{
+    background: #1f1f2e;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border-left: 4px solid #00ffe7;
+    transition: all 0.3s ease;
+}
+
+.project:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 255, 231, 0.2);
+
+}
+img{
+    width: 50%;
+    padding: 4rem ;
+}
+
+/* button:hover{
+            background: #00ffe7;
+            color: #0f0f1a;
+            box-shadow: 0 0 10px #00ffe7;
+            cursor: pointer; */
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: #111;
+    color: #fff;
+}
+
+
+/* responsive toggle */
+@media (max-width: 768px) {
+    nav{
+        display: none;
+        flex-direction: column;
+        background: #1f1f2e;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 999;
+    }
+
+    nav a{
+        padding: 1rem 0;
+        border-top: 1px solid #333;
+        transition: 0.3s ease;
+    }
+    nav a:hover{
+         color: #ffffff;
+         text-shadow: 0 0 5px #00ffe7, 0 0 10px #00ffe7;
+
+    }
+
+    .menu-toggle{
+        display: block;
+    }
+    nav.show{
+        display: flex;
+    }
+}
