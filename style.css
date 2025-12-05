@@ -55,6 +55,9 @@ section{
 ul li{
     list-style: none;
 }
+a{
+       text-decoration: none;
+}
 .project{
     background: #1f1f2e;
     width: 100%;
@@ -122,6 +125,7 @@ footer{
     }
 
 }
+
 
 
 
