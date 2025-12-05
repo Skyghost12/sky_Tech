@@ -52,7 +52,7 @@ section{
     text-align: center;
 }
 
-ul{
+ul li{
     list-style: none;
 }
 .project{
@@ -122,6 +122,7 @@ footer{
     }
 
 }
+
 
 
 
