@@ -51,6 +51,9 @@ section{
     align-items: center;
     text-align: center;
 }
+
+ul{
+    list-style: none;
 .project{
     background: #1f1f2e;
     width: 100%;
@@ -68,7 +71,7 @@ section{
 }
 img{
     width: 50%;
-    padding: 2rem ;
+    padding: 4rem ;
 }
 
 /* button:hover{
@@ -118,6 +121,7 @@ footer{
     }
 
 }
+
 
 
 
