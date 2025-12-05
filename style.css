@@ -74,7 +74,7 @@ a{
 
 }
 img{
-   /*width: 50%;*/
+   width: 100px;
     padding: 4rem ;
 }
 
@@ -125,6 +125,7 @@ footer{
     }
 
 }
+
 
 
 
